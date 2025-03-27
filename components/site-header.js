@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image" // Add this import
 import { useState } from "react"
 import { Search } from "lucide-react"
 
@@ -40,7 +41,8 @@ export function SiteHeader() {
             {/* Logo */}
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center">
-                <img src="/logo.svg" alt="Silicon Valley Journals" className="h-8 w-auto" />
+                {/* Replace img with Image */}
+                <Image src="/logo.svg" alt="Silicon Valley Journals" width={32} height={32} className="h-8 w-auto" />
               </Link>
             </div>
 
