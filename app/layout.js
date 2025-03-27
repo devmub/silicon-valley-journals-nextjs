@@ -1,8 +1,8 @@
-import './globals.css'
+import "./globals.css"
 
 export const metadata = {
-  title: 'Silicon Valley Journals',
-  description: 'Latest tech news, funding updates, and startup information from Silicon Valley and beyond.',
+  title: "Silicon Valley Journals",
+  description: "Latest tech news, funding updates, and startup information",
 }
 
 export default function RootLayout({ children }) {
@@ -12,3 +12,4 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
